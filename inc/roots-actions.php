@@ -1,5 +1,13 @@
 <?php
 
+if (WIDE_HEADER) {
+    add_action('roots_content_before', 'roots_get_content_before');
+}
+
+if (LEFT_RIGHT_SIDEBARS) {
+    add_action('widgets_init', 'rootsfusion_register_sidebars');
+}
+
 add_action('roots_stylesheets', 'roots_get_stylesheets');
 
 function roots_get_stylesheets() {

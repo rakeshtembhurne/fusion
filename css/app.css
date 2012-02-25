@@ -1,8 +1,8 @@
 /* =============================================================================
    Base
    ========================================================================== */
-
-body {}
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+body, p {font-family: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif}
 
 
 
@@ -15,7 +15,9 @@ body {}
 /* Fixed Topbar Navigation */
 body { padding-top: 60px; }
 body.admin-bar .navbar-fixed-top { top: 28px; }
-
+.img-center {margin:15px auto;}
+.img-left {margin-right: 15px; margin-bottom: 15px; float: left}
+.img-right {margin-left: 15px; margin-bottom: 15px; float: right}
 /* =============================================================================
    Before Content
    ========================================================================== */

@@ -1,7 +1,5 @@
 <?php // https://github.com/retlehs/roots/wiki
 
-//add_action('roots_content_before', 'roots_get_content_before');
-
 function roots_get_content_before() {
     echo '<div id="beforecontent" class="row">
             <div class="'.FULLWIDTH_CLASSES.'">
@@ -30,7 +28,5 @@ function rootsfusion_register_sidebars() {
     );
   }
 }
-
-add_action('widgets_init', 'rootsfusion_register_sidebars');
 
 ?>
